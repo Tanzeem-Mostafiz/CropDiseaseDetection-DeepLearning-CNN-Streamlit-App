@@ -50,7 +50,7 @@ AGROGUIDE/
 ## Installation & Usage
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/agroguide
+   [git clone https://github.com/your-username/agroguide](https://github.com/Tanzeem-Mostafiz/CropDiseaseDetection-DeepLearning-CNN-Streamlit-App)
    ```
 2. Create a virtual environment
    ```bash
