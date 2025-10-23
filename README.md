@@ -1,0 +1,59 @@
+# 🌱 AGROGUIDE – Crop Disease Detection
+
+**AGROGUIDE** is a web-based application developed as part of a **university course group project (2023)**.  
+It leverages **deep learning (TensorFlow/Keras)** and **computer vision** to detect crop diseases in real time from images or webcam feed. The application provides **disease identification**, **causal explanations**, and **practical cure suggestions** for multiple crops, aiming to support farmers and agricultural researchers.
+
+---
+
+## Project Overview
+
+### Features
+- Detect diseases in crops such as **Corn, Pepper, Potato, Tomato, and Cotton**.  
+- Upload images or capture live images via webcam.  
+- Provide **disease prediction**, **disease description**, and **actionable cure points**.  
+- Real-time predictions with a clean, user-friendly **Streamlit interface**.  
+- Pre-trained **deep learning model** trained on labeled crop images.
+
+### Crops & Diseases Covered
+- **Corn**: Common Rust, Gray Leaf Spot, Northern Leaf Blight  
+- **Pepper (Bell)**: Bacterial Spot  
+- **Potato**: Early Blight, Late Blight  
+- **Tomato**: Late Blight, Yellow Leaf Curl Virus  
+- **Cotton**: Bacterial Blight, Curl Virus, Fusarium Wilt  
+
+---
+
+## Technologies Used
+
+| Layer | Technologies |
+|-------|---------------|
+| **Frontend** | Streamlit, HTML, CSS |
+| **Backend** | Python, TensorFlow/Keras, Pillow, NumPy |
+| **Computer Vision** | Image preprocessing, real-time webcam feed |
+| **Machine Learning** | Convolutional Neural Networks for classification |
+
+---
+
+## Folder Structure
+```bash
+AGROGUIDE/
+│
+├── images1/                # Dataset images for training and testing
+├── interface/              # UI-related images
+├── class_indices.json      # Mapping of class indices to disease labels
+├── indexx.py               # Main application script
+└── README.md               # This file
+```
+
+---
+
+## Installation & Usage
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/agroguide
+   ```
+2. Create a virtual environment
+   ```bash
+   python -m venv .venv
+   ```
+3. 
