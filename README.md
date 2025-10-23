@@ -50,10 +50,27 @@ AGROGUIDE/
 ## Installation & Usage
 1. Clone the repository
    ```bash
-   https://github.com/Tanzeem-Mostafiz/CropDiseaseDetection-DeepLearning-CNN-Streamlit-App
+   git clone https://github.com/Tanzeem-Mostafiz/CropDiseaseDetection-DeepLearning-CNN-Streamlit-App
    ```
-2. Create a virtual environment
+2. **Create a virtual environment**
+```bash
+python -m venv .venv
+```
+3. **Activate the virtual environment**
+ - Windows
+```bash
+.venv\Scripts\activate
+```
+ - macOS/Linux
+```bash
+source .venv/bin/activate
+```
+4. Run the Streamlit app
    ```bash
-   python -m venv .venv
+   streamlit run indexx.py
    ```
-3. 
+5. Use the app
+   - Upload a crop image or open the camera to capture an image.
+   - Click Predict to view disease, explanation, and recommended cure points.
+
+
